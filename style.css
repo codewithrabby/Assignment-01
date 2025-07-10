@@ -21,7 +21,7 @@ nav{
 .logo{
     color: #4E47FF;
     font-size: 32px;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900px;
 }
 .nav-btn{
@@ -32,8 +32,11 @@ nav{
     border: none;
     border-radius: 10px;
     font-weight: bold;
+    cursor: pointer;
 }
-
+.nav-btn:hover {
+    background-color: #020c17;
+}
 /* Banner Section */
 .banner-heading{
     padding-top: 130px;
@@ -53,8 +56,11 @@ nav{
     display: block;
     margin: 0 auto;
     font-weight: bold;
+    cursor: pointer;
 }
-
+.banner-btn:hover {
+    background-color: #020c17;
+}
 
 /* Action Section */
 
@@ -87,6 +93,10 @@ nav{
     border-radius: 10px;
     margin: 0 auto;
     font-weight: bold;
+    cursor: pointer;
+}
+.action-btn:hover{
+    background-color: #020c17;
 }
 .action-img{
     border-radius: 35px;
@@ -126,6 +136,65 @@ nav{
     padding-bottom: 30px;
 }
 
+
+/* Get in Touch Section */
+
+.touch-div{
+    display: flex;
+    margin: 100px 150px;
+    justify-content: space-between;
+    background-color: #f8f9fa;
+}
+.touch-div-h1{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.contact-form input{
+    width: 400px;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.contact-form textarea{
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input::placeholder, ::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    font-size: 14px;
+}
+.touch-btn{
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 400px;
+}
+
+.touch-btn:hover {
+    background-color: #020c17;
+}
 
 
 
