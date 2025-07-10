@@ -136,6 +136,45 @@ nav{
     padding-bottom: 30px;
 }
 
+/* focus Section */
+
+.focus{
+    margin: 100px 150px;
+}
+.focus-h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 10px;
+}
+.focus-p{
+    color: grey;
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.focus-btn{
+    width: 160px;
+    height: 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+}
+.focus-btn:hover{
+    background-color: #020c17;
+}
+.focus-img{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Get in Touch Section */
 
