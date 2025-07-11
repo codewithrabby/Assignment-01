@@ -1,13 +1,17 @@
+
+/* shared Section */
+
 *{
     padding: 0;
     margin: 0;
 }
-
 header{
     background-image: url(Assets/Hero-bg.png);
     height: 698px;
 }
-
+body{
+    background-color: #f5F8FF;
+}
 /* Nav Bar Section */
 
 nav{
@@ -20,7 +24,7 @@ nav{
 }
 .logo{
     color: #4E47FF;
-    font-size: 32px;
+    font-size: 36px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 900px;
 }
@@ -37,7 +41,9 @@ nav{
 .nav-btn:hover {
     background-color: #020c17;
 }
+
 /* Banner Section */
+
 .banner-heading{
     padding-top: 130px;
     padding-bottom: 60px;
@@ -70,7 +76,6 @@ nav{
     align-items: center;
     margin: 100px 150px;
 }
-
 .action-h2{
     font-size: 46px;
     font-family: sans-serif;
@@ -102,8 +107,7 @@ nav{
     border-radius: 35px;
 }
 
-
-/* Productive user section */
+/* Productive User Section */
 
 .productive{
     background-color: rgb(215, 233, 253);
@@ -136,7 +140,53 @@ nav{
     padding-bottom: 30px;
 }
 
-/* focus Section */
+/* User Section */
+.user{
+    margin: 100px 150px;
+}
+.user-h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.user-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.user-background-div{
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.user-h4{
+    padding-top: 15px;
+    padding-bottom: 8px;
+}
+.user-p{
+    padding-bottom: 15px;
+}
+.user-img-icon{
+    display: flex;
+    gap: 10px;
+}
+.user-img-icon-p1{
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.user-img-icon-p2{
+    color: lightgrey;
+    font: 12px;
+}
+
+/* Focus Section */
 
 .focus{
     margin: 100px 150px;
@@ -162,6 +212,7 @@ nav{
     border: none;
     border-radius: 10px;
     margin: 0 auto;
+    margin-bottom: 30px;
     font-weight: bold;
     cursor: pointer;
     display: block;
@@ -170,10 +221,10 @@ nav{
     background-color: #020c17;
 }
 .focus-img{
-    padding-top: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 30px;
 }
 
 /* Get in Touch Section */
@@ -190,7 +241,6 @@ nav{
     font-weight: bolder;
     padding-top: 100px;
 }
-
 .contact-form label {
     display: block;
     margin-bottom: 5px;
@@ -202,7 +252,7 @@ nav{
     font-size: 14px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 8px;
     box-sizing: border-box;
 }
 .contact-form textarea{
@@ -211,11 +261,10 @@ nav{
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
-    border-radius: 10px;
+    border-radius: 8px;
     box-sizing: border-box;
     resize: none;
 }
-
 input::placeholder, ::placeholder{
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 10px;
@@ -230,14 +279,11 @@ input::placeholder, ::placeholder{
     cursor: pointer;
     width: 400px;
 }
-
 .touch-btn:hover {
     background-color: #020c17;
 }
 
-
-
-/* footer */
+/* Footer Section */
 
 .footer-logo{
     color: #4E47FF;
