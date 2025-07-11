@@ -164,6 +164,8 @@ nav{
     border: none;
     padding-top: 15px;
     padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 1px 1px 1px lightgray;
 }
 .user-h4{
     padding-top: 15px;
@@ -174,17 +176,21 @@ nav{
 }
 .user-img-icon{
     display: flex;
-    gap: 10px;
+    gap: 10;
+    padding-bottom: 10px;
 }
 .user-img-icon-p1{
     color: gray;
     font-size: 14px;
     font-weight: bold;
     font-family: sans-serif;
+    padding-top: 5px;
+    padding-left: 5px;
 }
 .user-img-icon-p2{
     color: lightgrey;
     font: 12px;
+    padding-left: 5px;
 }
 
 /* Focus Section */
