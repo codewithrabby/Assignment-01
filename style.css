@@ -8,6 +8,7 @@
 header{
     background-image: url(Assets/Hero-bg.png);
     height: 698px;
+    background-repeat: no-repeat;
 }
 body{
     background-color: #f5F8FF;
